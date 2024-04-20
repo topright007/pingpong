@@ -15,7 +15,7 @@
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>22</java.version>
-		<kotlin.version>1.9.23</kotlin.version>
+		<kotlin.version>2.0.0-RC1</kotlin.version>
 	</properties>
 	<dependencies>
 		<dependency>
