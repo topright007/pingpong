@@ -16,6 +16,7 @@
 	<properties>
 		<java.version>22</java.version>
 		<kotlin.version>2.0.0-RC1</kotlin.version>
+		<ktor.version>2.3.10</ktor.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -74,6 +75,22 @@
 			<groupId>io.projectreactor</groupId>
 			<artifactId>reactor-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>io.ktor</groupId>
+			<artifactId>ktor-server-core</artifactId>
+			<version>${ktor.version}</version>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>io.ktor</groupId>
+			<artifactId>ktor-server-core-jvm</artifactId>
+			<version>${ktor.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>io.ktor</groupId>
+			<artifactId>ktor-server-netty-jvm</artifactId>
+			<version>${ktor.version}</version>
 		</dependency>
 	</dependencies>
 
